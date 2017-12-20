@@ -1,0 +1,16 @@
+Your site is HTTPS so you need to copy the following attached files under your HTTPS domain to make native push notification work.
+
+You will find 2 files in the attached zip, which need to sit right beside your root. (needs to be there in root folder).
+
+1. manifest.json
+2. service-worker.js
+
+1. Add manifest.json file path in your web site header like OR you can copy following code and paste in your web site header
+
+<link rel="manifest" href="/manifest.json">
+
+You don't have to call service-worker.js file in your code. Just keep it in your root directory.
+
+Please let us know if you need any help or assistance from us. 
+
+you can directly came on our site for Live support through chat OR you can send us mail at support@pushassist.com
